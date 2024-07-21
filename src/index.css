@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "InstrumentSerif";
+  src: local("InstrumentSerif"), url("../font/Instrument_Serif/InstrumentSerif-Regular.ttf") format("truetype");
+  font-weight: "medium"
+}
