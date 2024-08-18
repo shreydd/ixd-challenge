@@ -20,7 +20,7 @@ export const Jelly = () => {
   }
 
   return (
-    <section className="max-w-7xl mx-auto py-36" id="day2">
+    <section className="section-card flex flex-col py-36" id="day2">
       <h2 className="font-instrumentSerif text-5xl mb-6 text-balance">What are your favorite cuisines?</h2>
       <div className="flex gap-2 max-w-3xl flex-wrap">
         {

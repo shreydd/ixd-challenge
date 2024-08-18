@@ -8,13 +8,13 @@ export default {
    },
    keyframes: {
     checkMarkMargin: {
-     "0%": { marginRight: "3px" },
+     "0%": { marginRight: "3.5px" },
      "50%": { marginRight: "1.5px" },
      "100%": { marginRight: "0px" },
     },
    },
    animation: {
-    "checkmark": "checkMarkMargin 0.4s ease-out",
+    "checkmark": "checkMarkMargin 0.2s ease-out",
    },
   },
  },

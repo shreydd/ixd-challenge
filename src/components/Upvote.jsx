@@ -21,7 +21,7 @@ export const Upvote = () => {
   }
 
   return (
-    <section className="h-dvh flex items-center justify-center">
+    <section className="section-card">
       <button 
         onClick={() => AnimateButton()} 
         onMouseEnter={() => setButtonHover(true)}

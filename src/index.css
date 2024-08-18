@@ -3,7 +3,27 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "InstrumentSerif";
-  src: local("InstrumentSerif"), url("../font/Instrument_Serif/InstrumentSerif-Regular.ttf") format("truetype");
-  font-weight: "medium"
+  font-family: "Inter";
+  src: local("Inter"),
+   url("../font/Inter/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+  font-weight: "medium";
+ }
+
+@font-face {
+ font-family: "InstrumentSerif";
+ src: local("InstrumentSerif"),
+  url("../font/Instrument_Serif/InstrumentSerif-Regular.ttf") format("truetype");
+ font-weight: "medium";
+}
+
+html {
+  font-family: "Inter", "serif";
+}
+
+.section-card {
+ @apply max-w-5xl mx-auto p-12 shadow-md bg-white border border-gray-200 rounded-md mt-10 flex justify-center min-h-10;
+}
+
+.polygon-fill-white-playCirlce polygon {
+  fill: white
 }
