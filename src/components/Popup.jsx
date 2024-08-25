@@ -36,7 +36,7 @@ export function Popup() {
             max={max}
             step={1}
             className='transition-all duration-300'
-            onValueChange={setValue}
+            // onValueChange={setValue}
           />
         }
         <div className="flex flex-1 justify-between items-center">
